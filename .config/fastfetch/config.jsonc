@@ -1,0 +1,141 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "padding": {
+      "top": 3
+    }
+  },
+  "modules": [
+    "title",
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌───────────────── Operating System ─────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": " OS"
+    },
+    {
+      "type": "host",
+      "key": " Host"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel"
+    },
+    {
+      "type": "initsystem",
+      "key": " Init System"
+    },
+    {
+      "type": "processes",
+      "key": " Processes"
+    },
+    {
+      "type": "uptime",
+      "key": " Uptime"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m├───────────────────── Software ─────────────────────┤"
+    },
+    {
+      "type": "packages",
+      "key": " Packages"
+    },
+    {
+      "type": "shell",
+      "key": " Shell"
+    },
+    {
+      "type": "display",
+      "key": " Display"
+    },
+    {
+      "type": "de",
+      "key": " DE"
+    },
+    {
+      "type": "wm",
+      "key": " WM"
+    },
+    {
+      "type": "wmtheme",
+      "key": " WM Theme"
+    },
+    {
+      "type": "theme",
+      "key": " Theme"
+    },
+    {
+      "type": "icons",
+      "key": " Icons"
+    },
+    {
+      "type": "font",
+      "key": " Font"
+    },
+    {
+      "type": "cursor",
+      "key": " Cursor"
+    },
+    {
+      "type": "lm",
+      "key": " LM"
+    },
+    {
+      "type": "terminal",
+      "key": " Terminal"
+    },
+    {
+      "type": "terminalfont",
+      "key": " Terminal Font"
+    },
+    {
+      "type": "locale",
+      "key": " Locale"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m├───────────────────── Hardware ─────────────────────┤"
+    },
+    {
+      "type": "cpu",
+      "key": " CPU"
+    },
+    {
+      "type": "gpu",
+      "key": " GPU"
+    },
+    {
+      "type": "memory",
+      "key": " Memory"
+    },
+    {
+      "type": "disk",
+      "key": " Disk"
+    },
+    {
+      "type": "localip",
+      "key": " Local IP"
+    },
+    {
+      "type": "battery",
+      "key": " Battery"
+    },
+    {
+      "type": "poweradapter",
+      "key": " Power Adapter"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "Have a lovely day! Remember to stay positive and hydrated ^_^"
+    }
+  ]
+}
