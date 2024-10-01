@@ -10,7 +10,7 @@
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌───────────────── Operating System ─────────────────┐"
+      "format": "\u001b[38;2;86;95;137m┌───────────────── Operating System ─────────────────┐"
     },
     {
       "type": "os",
@@ -38,7 +38,7 @@
     },
     {
       "type": "custom",
-      "format": "\u001b[90m├───────────────────── Software ─────────────────────┤"
+      "format": "\u001b[38;2;86;95;137m├───────────────────── Software ─────────────────────┤"
     },
     {
       "type": "packages",
@@ -98,7 +98,7 @@
     },
     {
       "type": "custom",
-      "format": "\u001b[90m├───────────────────── Hardware ─────────────────────┤"
+      "format": "\u001b[38;2;86;95;137m├───────────────────── Hardware ─────────────────────┤"
     },
     {
       "type": "cpu",
@@ -130,12 +130,12 @@
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[38;2;86;95;137m└────────────────────────────────────────────────────┘"
     },
     "break",
     {
       "type": "custom",
-      "format": "Have a lovely day! Remember to stay positive and hydrated ^_^"
+      "format": "\u001b[38;2;86;95;137mHave a lovely day! Remember to stay positive and hydrated ^_^"
     }
   ]
 }
