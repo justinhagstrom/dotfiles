@@ -17,10 +17,6 @@
       "key": " OS"
     },
     {
-      "type": "host",
-      "key": " Host"
-    },
-    {
       "type": "kernel",
       "key": " Kernel"
     },
@@ -35,6 +31,42 @@
     {
       "type": "uptime",
       "key": " Uptime"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;86;95;137m├───────────────────── Hardware ─────────────────────┤"
+    },
+    {
+      "type": "host",
+      "key": " Machine"
+    },
+    {
+      "type": "cpu",
+      "key": " CPU"
+    },
+    {
+      "type": "gpu",
+      "key": " GPU"
+    },
+    {
+      "type": "memory",
+      "key": " Memory"
+    },
+    {
+      "type": "disk",
+      "key": " Disk"
+    },
+    {
+      "type": "localip",
+      "key": " Local IP"
+    },
+    {
+      "type": "battery",
+      "key": " Battery"
+    },
+    {
+      "type": "poweradapter",
+      "key": " Power Adapter"
     },
     {
       "type": "custom",
@@ -95,38 +127,6 @@
     {
       "type": "locale",
       "key": " Locale"
-    },
-    {
-      "type": "custom",
-      "format": "\u001b[38;2;86;95;137m├───────────────────── Hardware ─────────────────────┤"
-    },
-    {
-      "type": "cpu",
-      "key": " CPU"
-    },
-    {
-      "type": "gpu",
-      "key": " GPU"
-    },
-    {
-      "type": "memory",
-      "key": " Memory"
-    },
-    {
-      "type": "disk",
-      "key": " Disk"
-    },
-    {
-      "type": "localip",
-      "key": " Local IP"
-    },
-    {
-      "type": "battery",
-      "key": " Battery"
-    },
-    {
-      "type": "poweradapter",
-      "key": " Power Adapter"
     },
     {
       "type": "custom",
