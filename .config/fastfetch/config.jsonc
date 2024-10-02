@@ -57,6 +57,10 @@
       "key": " Disk"
     },
     {
+      "type": "display",
+      "key": " Display"
+    },
+    {
       "type": "localip",
       "key": " Local IP"
     },
@@ -73,16 +77,20 @@
       "format": "\u001b[38;2;86;95;137m├───────────────────── Software ─────────────────────┤"
     },
     {
-      "type": "packages",
-      "key": " Packages"
+      "type": "terminal",
+      "key": " Terminal"
     },
     {
       "type": "shell",
       "key": " Shell"
     },
     {
-      "type": "display",
-      "key": " Display"
+      "type": "lm",
+      "key": " LM"
+    },
+    {
+      "type": "packages",
+      "key": " Packages"
     },
     {
       "type": "de",
@@ -111,14 +119,6 @@
     {
       "type": "cursor",
       "key": " Cursor"
-    },
-    {
-      "type": "lm",
-      "key": " LM"
-    },
-    {
-      "type": "terminal",
-      "key": " Terminal"
     },
     {
       "type": "terminalfont",
