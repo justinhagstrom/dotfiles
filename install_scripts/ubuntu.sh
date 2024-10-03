@@ -3,6 +3,7 @@ sudo apt update;
 sudo apt upgrade -y;
 
 ### Reboot here ###
+# sudo reboot now;
 
 # Install packages
 sudo apt install -y tmux git neovim btop python3-pip htop iotop iftop unzip gcc npm neofetch make ripgrep xclip curl golang;

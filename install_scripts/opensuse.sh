@@ -2,6 +2,7 @@
 sudo zypper up -y;
 
 ### Reboot here ###
+# sudo reboot now;
 
 # Install packages
 sudo zypper install -y awscli \

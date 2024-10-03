@@ -2,6 +2,7 @@
 sudo dnf update -y;
 
 ### Reboot here ###
+# sudo reboot now;
 
 # Install extras repo
 sudo dnf install -y epel-release;

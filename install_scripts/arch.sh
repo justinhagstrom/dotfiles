@@ -7,6 +7,7 @@ sudo reflector --country "US" --protocol https,http --score 20 --sort rate --sav
 sudo pacman -Syu --noconfirm;
 
 ### Reboot here ###
+# sudo reboot now;
 
 # Install packages
 sudo pacman -S --noconfirm --needed tmux fastfetch neovim ripgrep fd \

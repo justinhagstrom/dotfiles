@@ -2,13 +2,14 @@
 sudo dnf update -y;
 
 ### Reboot here ###
+# sudo reboot now;
 
 # Install packages
 sudo dnf install -y awscli \
     tmux btop fastfetch htop iotop iftop cmatrix fish \
     git git-lfs gcc g++ make npm \
     python3-pip wget unzip \
-    neovim lua go ripgrep fd-find;
+    neovim lua go ripgrep fd-find ranger;
 
 # Copy dotfiles
 wget https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.tmux.conf --backups=1;
