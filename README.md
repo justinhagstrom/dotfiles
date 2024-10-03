@@ -1,5 +1,5 @@
 # dotfiles
 
-![Screenshot of Arch Linux](screenshot_arch.png)
+![Screenshot of Arch Linux](screenshots/arch.png)
 
-![Screenshot of Fedora Linux](screenshot_fedora.png)
+![Screenshot of Fedora Linux](screenshots/fedora.png)
