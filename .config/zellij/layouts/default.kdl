@@ -25,3 +25,5 @@ layout {
         }
     }
 }
+session_name "session1"
+attach_to_session true
