@@ -11,7 +11,7 @@ sudo pacman -Syu --noconfirm;
 
 # Install packages
 sudo pacman -S --noconfirm --needed tmux fastfetch neovim ripgrep fd \
-    ranger btop htop iotop iftop fish zellij \
+    ranger btop htop iotop iftop fish cargo zellij \
     git python-pip base-devel unzip gcc npm make go;
 
 # Copy dotfiles
