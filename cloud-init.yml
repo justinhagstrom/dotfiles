@@ -1,0 +1,36 @@
+#cloud-config
+repo_update: true
+repo_upgrade: true
+
+packages:
+- awscli
+- tmux
+- btop
+- fastfetch
+- htop
+- iotop
+- iftop
+- cmatrix
+- fish
+- git
+- git-lfs
+- gcc
+- g++
+- make
+- npm
+- python3-pip
+- wget
+- unzip
+- cargo
+- neovim
+- lua
+- go
+- ripgrep
+- fd-find
+- ranger
+
+runcmd:
+- [ wget, https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.tmux.conf, -P, /home/fedora/, --backups=1 ]
+- [ wget, https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.config/fastfetch/config.jsonc, -P, /home/fedora/.config/fastfetch/, --backups=1 ]
+- [ wget, https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.config/btop/btop.conf, -P, /home/fedora/.config/btop/, --backups=1 ]
+- [ git, clone, https://github.com/justinhagstrom/kickstart.nvim, /home/fedora/.config/nvim ]
