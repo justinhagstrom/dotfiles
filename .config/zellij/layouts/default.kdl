@@ -1,0 +1,18 @@
+layout {
+    pane split_direction="vertical" {
+        pane command="fastfetch"
+        pane command="btop"
+    }
+    pane split_direction="vertical" {
+        pane {
+            focus true
+        }
+        pane {
+            command "curl"
+            args "https://wttr.in/Boston?F&A&Q&n"
+        }
+    }
+    pane size=1 borderless=true {
+        plugin location="zellij:compact-bar"
+    }
+}
