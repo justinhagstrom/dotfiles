@@ -12,7 +12,7 @@ sudo pacman -Syu --noconfirm;
 # Install packages
 sudo pacman -S --noconfirm --needed tmux fastfetch neovim ripgrep fd \
     inetutils ranger btop htop iotop iftop fish cargo zellij \
-    git python-pip base-devel unzip gcc npm make go;
+    git python-pip base-devel unzip gcc npm make go xfsprogs;
 
 # Copy dotfiles
 wget https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.tmux.conf --backups=1;
