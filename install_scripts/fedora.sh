@@ -7,7 +7,7 @@ sudo dnf update -y;
 # Install packages
 sudo dnf install -y awscli \
     tmux btop fastfetch htop iotop iftop cmatrix fish \
-    git git-lfs gcc g++ make npm \
+    git git-lfs gcc g++ make npm screen \
     python3-pip wget unzip cargo \
     neovim lua go ripgrep fd-find ranger;
 
