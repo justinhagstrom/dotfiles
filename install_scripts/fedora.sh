@@ -9,7 +9,8 @@ sudo dnf install -y awscli \
     tmux btop fastfetch htop iotop iftop cmatrix fish \
     git git-lfs gcc g++ make npm screen \
     python3-pip wget unzip cargo \
-    neovim lua go ripgrep fd-find ranger;
+    neovim lua go ripgrep fd-find ranger \
+    ccache cmake libcurl-devel;
 
 # Copy dotfiles
 wget https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.tmux.conf --backups=1;
