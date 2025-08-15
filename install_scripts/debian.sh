@@ -6,7 +6,7 @@ sudo apt upgrade -y;
 # sudo reboot now;
 
 # Install packages
-sudo apt install -y tmux git neovim btop python3-pip htop iotop iftop unzip gcc npm fastfetch make ripgrep xclip curl;
+sudo apt install -y tmux git neovim btop python3-pip htop iotop iftop unzip gcc npm fastfetch make ripgrep xclip curl golang;
 
 # Copy dotfiles
 wget https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.tmux.conf --backups=1;
