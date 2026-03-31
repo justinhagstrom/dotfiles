@@ -10,7 +10,7 @@ sudo dnf install -y awscli \
     git git-lfs gcc g++ make npm screen \
     python3-pip wget unzip cargo \
     neovim lua go ripgrep fd-find ranger \
-    ccache cmake libcurl-devel;
+    ccache cmake libcurl-devel tree-sitter-cli;
 
 # Copy dotfiles
 wget https://raw.githubusercontent.com/justinhagstrom/dotfiles/refs/heads/main/.tmux.conf --backups=1;
